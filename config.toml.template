@@ -6,7 +6,7 @@ description_pattern = "term1 || term2"
 [reddit]
 auth_host = "https://www.reddit.com/api/v1/"
 api_host = "https://oauth.reddit.com/"
-token_file = "token.json"
+token_file = ".auth/token.json"
 username = "<YOUR USERNAME>"
 password = "<YOUR USER'S PASSWORD>"
 client_id = "<YOUR API CLIENT ID>"

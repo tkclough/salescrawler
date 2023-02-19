@@ -1,5 +1,8 @@
-/target
+target
+.auth
+.vscode
 config.toml
 sqlite.db
 sqlite.db-shm
 sqlite.db-wal
+Cargo.lock

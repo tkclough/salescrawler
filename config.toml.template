@@ -1,0 +1,33 @@
+[[rules]]
+name = "Rule name"
+product_type_pattern = "Rule product"
+description_pattern = "term1 || term2"
+
+[reddit]
+auth_host = "https://www.reddit.com/api/v1/"
+api_host = "https://oauth.reddit.com/"
+token_file = "token.json"
+username = "<YOUR USERNAME>"
+password = "<YOUR USER'S PASSWORD>"
+client_id = "<YOUR API CLIENT ID>"
+client_secret = "<YOUR API CLIENT SECRET>"
+user_agent = "<YOUR API CLIENT USER AGENT>"
+wait_time_secs = 5
+
+[discord]
+token = "<YOUR DISCORD BOT TOKEN>"
+user_agent = "<YOUR DISCORD BOT USER AGENT>"
+api_url = "https://discord.com/api/v10/"
+channel_id = "<YOUR DISCORD CHANNEL ID TO POST MESSAGES TO>"
+sending_interval_secs = 10
+
+[twilio]
+api_url = "https://api.twilio.com/2010-04-01/Accounts/"
+api_key = "<YOUR API KEY>"
+api_key_secret = "<YOUR ACCOUNT KEY SECRET>"
+account_sid = "<YOUR ACCOUNT SID>"
+phone_number_from = "<NUMBER TO SEND FROM>"
+phone_number_to = "<NUMBER TO SEND TO>"
+
+[db]
+db_url = "sqlite://sqlite.db"

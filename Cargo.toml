@@ -1,0 +1,26 @@
+[package]
+name = "sales_crawler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.0"
+bytemuck = "1.13.0"
+chrono = "0.4.23"
+clap = { version = "4.1.6", features = ["derive"] }
+env_logger = "0.10.0"
+log = "0.4.17"
+md-5 = "0.10.5"
+regex = "1.7.1"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.93"
+sha2 = "0.10.6"
+sqlx = { verion = "0.6.2", features = ["runtime-tokio-native-tls", "sqlite"]}
+thiserror = "1.0.38"
+tokio = { version = "1.20.0", features = ["macros"] }
+toml = "0.7.2"
+ureq = { version = "2.6.2", features = ["json"] }
+url = "2.3.1"
+urlencoding = "2.1.2"
